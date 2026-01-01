@@ -14,13 +14,3 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-
-
-logging:
-  level:
-    root: INFO
-    com.crud: DEBUG
-  file:
-    name: logs/app.log
-
-

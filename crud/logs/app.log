@@ -1,0 +1,33 @@
+2026-01-01T21:52:58.335+05:00  INFO 2892 --- [main] com.logging.crud.CrudApplication         : Starting CrudApplication using Java 17.0.7 with PID 2892 (C:\Users\Izzat\Desktop\logging\crud\build\classes\java\main started by Izzat in C:\Users\Izzat\Desktop\logging\crud)
+2026-01-01T21:52:58.339+05:00  INFO 2892 --- [main] com.logging.crud.CrudApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-01T21:52:58.785+05:00  INFO 2892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-01T21:52:58.828+05:00  INFO 2892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2026-01-01T21:52:59.243+05:00  INFO 2892 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-01T21:52:59.257+05:00  INFO 2892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-01T21:52:59.257+05:00  INFO 2892 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-01T21:52:59.318+05:00  INFO 2892 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 940 ms
+2026-01-01T21:52:59.446+05:00  INFO 2892 --- [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-01T21:52:59.499+05:00  INFO 2892 --- [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-01T21:52:59.874+05:00  INFO 2892 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-01T21:52:59.910+05:00  INFO 2892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-01T21:53:00.117+05:00  INFO 2892 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@545604a9
+2026-01-01T21:53:00.118+05:00  INFO 2892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-01T21:53:00.170+05:00  WARN 2892 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-01T21:53:00.200+05:00  INFO 2892 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:3306/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.4
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-01T21:53:01.175+05:00  INFO 2892 --- [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-01T21:53:01.249+05:00  INFO 2892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-01T21:53:01.313+05:00  INFO 2892 --- [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-01T21:53:01.501+05:00  WARN 2892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-01T21:53:01.734+05:00  INFO 2892 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-01T21:53:01.738+05:00  INFO 2892 --- [main] com.logging.crud.CrudApplication         : Started CrudApplication in 3.834 seconds (process running for 4.189)
